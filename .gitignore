@@ -1,0 +1,24 @@
+# Ignore Terraform working directory
+**/.terraform/
+
+# Ignore state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore crash logs
+crash.log
+
+# # Ignore sensitive variable files
+# *.tfvars
+# *.tfvars.json
+**/.terraform/
+#**/.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.plan
+dependencytest.tf
+image.png
+ssh-keys
+main.tf
+terraform.tfvars
+.terraform/
